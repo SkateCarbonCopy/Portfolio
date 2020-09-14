@@ -15,14 +15,17 @@ class Cover extends React.Component {
                         <div className="container">
                             <div className="row">
                             <div className="col-md-12 white-text text-center">
-                                <h1 className="display-3 mb-0 pt-md-5 pt-5 white-text wow fadeInDown" data-wow-delay="0.3s">COLIN
+                                <h1 className="display-3 mb-0 pt-md-5 pt-5 white-text wow fadeInDown d-none d-md-block" data-wow-delay="0.3s">COLIN
                                     <span className="indigo-text font-weight-bold">GASTELLE</span>
                                 </h1>
-                                <h5 className="text-uppercase pt-md-5 pt-sm-2 pt-5 pb-md-5 pb-sm-3 pb-5 white-text font-weight-bold wow fadeInDown"
-                                data-wow-delay="0.3s">Web developer &amp; Artist</h5>
+                                <h1 className="mb-0 pt-md-5 pt-5 white-text wow fadeInDown d-md-none" data-wow-delay="0.3s">COLIN
+                                    <span className="indigo-text font-weight-bold"> GASTELLE</span>
+                                </h1>
+                                <h3 className="text-uppercase py-4 white-text font-weight-bold wow fadeInDown"
+                                data-wow-delay="0.3s">Web developer &amp; Artist</h3>
                                 <div className="wow fadeInDown" data-wow-delay="0.3s">
-                                    <a className="btn btn-light-blue btn-lg btn-rounded disabled">portfolio</a>
-                                    <a className="btn btn-indigo btn-lg btn-rounded disabled">About me</a>
+                                    <a className="btn btn-light-blue btn-lg btn-rounded" href="#portfolio">Portfolio</a>
+                                    {/*<a className="btn btn-indigo btn-lg btn-rounded disabled">About me</a>*/}
                                 </div>
                             </div>
                             </div>

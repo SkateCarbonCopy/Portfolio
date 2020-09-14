@@ -5,7 +5,7 @@ class GalleryContainer extends React.Component {
     render() {
         return (
             <div className="container my-5">
-                <section>
+                <section id="portfolio">
                     <div className="modal fade" id="basicExampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div className="modal-dialog modal-lg modal-dialog-centered" role="document">
                             <div className="modal-content">
@@ -48,7 +48,8 @@ class GalleryContainer extends React.Component {
                     </div>
                 <h3 className="font-weight-bold text-center dark-grey-text pb-2">Portfolio</h3>
                 <hr className="w-header my-4" />
-                <p className="lead text-center text-muted pt-2 mb-5">You can find several product design by our professional team in this section.</p>
+                <p className="lead text-center text-muted pt-2 mb-5">Below are a few personal projects I've worked on, from character design for an animated series to skateboard graphics.</p>
+                {/*
                 <div className="row">
                     <div className="col-md-12 dark-grey-text d-flex justify-content-center mb-5">
                         <button type="button" className="btn btn-flat btn-lg m-0 px-3 py-1 filter" data-rel="all">All</button>
@@ -58,6 +59,7 @@ class GalleryContainer extends React.Component {
                         <button type="button" className="btn btn-flat btn-lg m-0 px-3 py-1 filter" data-rel="2">Mockup</button>
                     </div>
                 </div>
+                */}
                 <div className="gallery mb-5" id="gallery">
                     {this.props.galleryObjects.map( galleryObject => {
                         return <GalleryObject GalleryObject={galleryObject} />
