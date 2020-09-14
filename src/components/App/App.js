@@ -1,8 +1,8 @@
 import React from 'react';
 //import logo from '../../logo.svg';
 import './App.css';
-import Cover from '../Cover/Cover';
-import GalleryContainer from '../GalleryContainer/GalleryContainer';
+import Cover from '../Cover/Cover.js';
+import GalleryContainer from '../GalleryContainer/GalleryContainer.js';
 
 const callMe = {
   imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/callme.jpg'
