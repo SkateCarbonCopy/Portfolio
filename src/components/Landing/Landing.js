@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Cover extends React.Component {
+class Landing extends React.Component {
     render() {
         const headerStyles = {
             backgroundImage: "url(" + process.env.PUBLIC_URL + '/_assets/img/cover/home.jpg)',
@@ -37,4 +37,4 @@ class Cover extends React.Component {
     }
 };
 
-export default Cover;
+export default Landing;

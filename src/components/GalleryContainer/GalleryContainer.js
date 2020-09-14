@@ -1,5 +1,5 @@
 import React from 'react';
-import GalleryObject from '../GalleryObject/GalleryObject.js';
+import GalleryObject from '../GalleryObject/GalleryObject';
 
 class GalleryContainer extends React.Component {
     render() {
