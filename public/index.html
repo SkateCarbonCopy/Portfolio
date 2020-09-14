@@ -23,5 +23,19 @@
     <script type="text/javascript" src="%PUBLIC_URL%/_assets/js/popper.min.js"></script> 
     <script type="text/javascript" src="%PUBLIC_URL%/_assets/js/bootstrap.min.js"></script> 
     <script type="text/javascript" src="%PUBLIC_URL%/_assets/js/mdb.min.js"></script>
+    <script>
+      $(function () {
+        var selectedClass = "";
+        $(".filter").click(function () {
+          selectedClass = $(this).attr("data-rel");
+          $("#gallery").fadeTo(100, 0.1);
+          $("#gallery div").not("." + selectedClass).fadeOut().removeClass('animation');
+          setTimeout(function () {
+            $("." + selectedClass).fadeIn().addClass('animation');
+            $("#gallery").fadeTo(300, 1);
+          }, 300);
+        });
+      });
+    </script>
   </body>
 </html>
