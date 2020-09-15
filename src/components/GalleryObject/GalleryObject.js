@@ -8,7 +8,7 @@ class GalleryObject extends React.Component {
         return (
             <article>
                 <div className="mb-3 pics all 2 animation">
-                    <a data-toggle="modal" data-target={'#' + this.props.GalleryObject.file + 'Modal'}>
+                    <a href="#" data-toggle="modal" data-target={'#' + this.props.GalleryObject.file + 'Modal'}>
                         <img className="img-fluid z-depth-1 rounded" src={this.props.GalleryObject.imageSrc} alt="Sample" />
                     </a>
                 </div>
