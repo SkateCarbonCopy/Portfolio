@@ -8,9 +8,9 @@ class GalleryObject extends React.Component {
         return (
             <article>
                 <div className="mb-3 pics all 2 animation">
-                    <a href="#" data-toggle="modal" data-target={'#' + this.props.GalleryObject.file + 'Modal'}>
+                    <button className="modal-button" data-toggle="modal" data-target={'#' + this.props.GalleryObject.file + 'Modal'}>
                         <img className="img-fluid z-depth-1 rounded" src={this.props.GalleryObject.imageSrc} alt="Sample" />
-                    </a>
+                    </button>
                 </div>
                 <div className="modal fade" id={this.props.GalleryObject.file + 'Modal'} tabIndex="-1" role="dialog" aria-labelledby={this.props.GalleryObject.file + 'ModalLabel'} aria-hidden="true">
                         <div className="modal-dialog modal-lg modal-dialog-centered" role="document">

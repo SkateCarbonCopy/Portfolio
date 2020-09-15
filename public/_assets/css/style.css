@@ -4,10 +4,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.disabled-link {
-  pointer-events: none;
-}
-
 /*Header Styles*/
 
 header > .view {
@@ -19,6 +15,11 @@ header h5 {
 }
 
 /*Gallery Styles*/
+
+.modal-button {
+  padding: 0;
+  border-width: 0;
+}
 
 .gallery {
   -webkit-column-count: 3;
