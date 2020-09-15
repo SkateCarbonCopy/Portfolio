@@ -18,14 +18,14 @@ const galleryObjects = [
     title: 'Owl Tattoo Mock-up',
     description: 'A tattoo concept for a series of pieces where fauna is formed by flora.',
     media: 'Photoshop, Illustrator',
-    imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/owltattoomock.png'
+    imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/owltattoomock.jpg'
   },
   {
     file: 'jeffQA',
     title: 'Jeff: QA',
     description: 'A character (Jeff) designed for an animated web series.',
     media: 'Illustrator',
-    imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/jeffQA.png'
+    imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/jeffQA.jpg'
   },
   {
     file: 'ToastPoster',
@@ -81,7 +81,7 @@ const galleryObjects = [
     title: 'Carbon Copy Labs: Cleveland Rides',
     description: 'Skateboard graphic designed with Cleveland sports team logos.',
     media: 'Photoshop',
-    imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/cleboard.png'
+    imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/cleboard.jpg'
   },
   {
     file: 'artshowinvite',
@@ -96,6 +96,20 @@ const galleryObjects = [
     description: 'Logo for Carbon Copy Labs, a handmade skateboard company operated by myself, and friend.',
     media: 'Illustrator',
     imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/carboncopylogo.png'
+  },
+  {
+    file: 'cclbanners',
+    title: 'Carbon Copy Labs Site Banners',
+    description: 'Banners for Carbon Copy Labs website, a handmade skateboard company operated by myself, and friend.',
+    media: 'Photoshop',
+    imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/cclbanners.jpg'
+  },  
+  {
+    file: 'wishyouwerehere',
+    title: 'Wish You Were Here',
+    description: 'Abstract art created for college art show.',
+    media: 'Photoshop, Illustrator',
+    imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/wishyouwerehere.jpg'
   }
 ];
 

@@ -34,7 +34,7 @@ header h5 {
   transform: scale(1); 
 }
 
-.gallery-img {
+.modal-gallery-img {
   max-height: 90vh;
   float: right;
 }
