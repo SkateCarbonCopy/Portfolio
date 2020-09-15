@@ -34,6 +34,11 @@ header h5 {
   transform: scale(1); 
 }
 
+.gallery-img {
+  max-height: 90vh;
+  float: right;
+}
+
 @media (max-width: 991px) {
   .gallery {
     -webkit-column-count: 2;
