@@ -28,6 +28,13 @@ const galleryObjects = [
     imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/jeffQA.jpg'
   },
   {
+    file: 'imagine',
+    title: 'Imagine Changing the World',
+    description: 'Commissioned mural for Imagine Harvard school in Cleveland, OH.',
+    media: 'Spray paint',
+    imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/ImagineChangingTheWorld.jpg'
+  }, 
+  {
     file: 'ToastPoster',
     title: 'Toast Improv Poster',
     description: 'Poster designed for the Toast Improv group.',
@@ -56,6 +63,13 @@ const galleryObjects = [
     imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/rachelQA.png'
   },
   {
+    file: 'epiphany',
+    title: 'Epiphany',
+    description: 'The first of three handmade skateboards and custom painted designs created for the "Board to Death" artshow.',
+    media: 'Paint markers, acrylic Paint, sharpie',
+    imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/epiphany.jpg'
+  }, 
+  {
     file: 'kingsofNY',
     title: 'Kings of New York',
     description: 'T-Shirt design example with Graffiti lettering.',
@@ -77,6 +91,13 @@ const galleryObjects = [
     imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/goodbyebluemondays.jpg'
   },
   {
+    file: 'breezyclean',
+    title: 'Breezy Clean',
+    description: 'Logo concept for Breezy Clean company.',
+    media: 'Illustrator',
+    imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/breezyclean.jpg'
+  },
+  {
     file: 'cleboard',
     title: 'Carbon Copy Labs: Cleveland Rides',
     description: 'Skateboard graphic designed with Cleveland sports team logos.',
@@ -90,6 +111,20 @@ const galleryObjects = [
     media: 'Photoshop',
     imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/artshowinvite.jpg'
   },
+  {
+    file: 'oldhaunts',
+    title: 'Old Haunts Brewing',
+    description: 'Logo concept for Old Haunts Brewing company.',
+    media: 'Illustrator',
+    imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/OldHaunts.jpg'
+  }, 
+  {
+    file: 'clegraff',
+    title: 'Cleveland Burner',
+    description: 'The second of three handmade skateboards and custom painted designs created for the "Board to Death" artshow.',
+    media: 'Paint marker, sharpie, arcylic paint',
+    imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/ClevelandGraff.jpg'
+  }, 
   {
     file: 'carboncopylogo',
     title: 'Carbon Copy Labs Logo',
@@ -110,6 +145,13 @@ const galleryObjects = [
     description: 'Abstract art created for college art show.',
     media: 'Photoshop, Illustrator',
     imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/wishyouwerehere.jpg'
+  }, 
+  {
+    file: 'syntaxerror',
+    title: 'Syntax Error',
+    description: 'The third of three handmade skateboards and custom painted designs created for the "Board to Death" artshow.',
+    media: 'Paint marker, sharpie, arcylic paint, wood stain',
+    imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/NineToFive.jpg'
   }
 ];
 

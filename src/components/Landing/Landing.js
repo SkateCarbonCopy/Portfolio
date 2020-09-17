@@ -24,8 +24,8 @@ class Landing extends React.Component {
                                 <h3 className="text-uppercase py-4 white-text font-weight-bold wow fadeInDown"
                                 data-wow-delay="0.3s">Web developer &amp; Artist</h3>
                                 <div className="wow fadeInDown" data-wow-delay="0.3s">
+                                    <a className="btn btn-indigo btn-lg btn-rounded" href="#aboutme">About me</a>
                                     <a className="btn btn-light-blue btn-lg btn-rounded" href="#portfolio">Portfolio</a>
-                                    {/*<a className="btn btn-indigo btn-lg btn-rounded disabled">About me</a>*/}
                                 </div>
                             </div>
                             </div>

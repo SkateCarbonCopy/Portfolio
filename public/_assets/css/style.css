@@ -4,6 +4,20 @@ html {
   scroll-behavior: smooth;
 }
 
+.align-self-center {
+  align-self: center;
+}
+
+/*About Me*/
+#aboutme {
+  background-image: url('../img/bkgds/Paper.jpg');
+  background-size: cover;
+}
+
+#skills i {
+  font-size: 80px;
+}
+
 /*Header Styles*/
 
 header > .view {
@@ -15,6 +29,10 @@ header h5 {
 }
 
 /*Gallery Styles*/
+
+#portfolio hr {
+  border-top: 1px solid rgba(43,187,173,1);
+}
 
 .modal-button {
   padding: 0;
