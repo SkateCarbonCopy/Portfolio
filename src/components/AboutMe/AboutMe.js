@@ -16,13 +16,13 @@ class AboutMe extends React.Component {
                         </div>
                     </div>
                     <div className="row mb-3" id="skills">
-                        <div className="col-md-4 mx-auto">
+                        <div className="col-md-4 mx-auto my-3">
                             <i className="fas fa-code text-black-50 wow fade-in-up" data-wow-delay="0.3s"></i>
                         </div>
-                        <div className="col-md-4 mx-auto">
+                        <div className="col-md-4 mx-auto my-3">
                             <i className="fas fa-paint-brush text-black-50 wow fade-in-up animated" data-wow-delay="0.3s"></i>
                         </div>
-                        <div className="col-md-4 mx-auto">
+                        <div className="col-md-4 mx-auto my-3">
                             <i className="fas fa-snowboarding text-black-50 wow fade-in-up animated" data-wow-delay="0.3s"></i>
                         </div>
                     </div>
