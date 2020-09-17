@@ -9,7 +9,7 @@ class GalleryObject extends React.Component {
             <article>
                 <div className="mb-3 pics all 2 animation">
                     <button className="modal-button" data-toggle="modal" data-target={'#' + this.props.GalleryObject.file + 'Modal'}>
-                        <img className="img-fluid z-depth-1 rounded" src={this.props.GalleryObject.imageSrc} alt="Sample" />
+                        <img className="img-fluid z-depth-1 rounded wow fade-in animated" src={this.props.GalleryObject.imageSrc} alt="Sample" />
                     </button>
                 </div>
                 <div className="modal fade" id={this.props.GalleryObject.file + 'Modal'} tabIndex="-1" role="dialog" aria-labelledby={this.props.GalleryObject.file + 'ModalLabel'} aria-hidden="true">
