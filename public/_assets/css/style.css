@@ -97,3 +97,43 @@ button.close {
   padding-right: 1rem;
   padding-top: .6rem;
 }
+
+/* Colors */
+
+.color-dark-gray {
+  color: #2d3436;
+}
+
+/* Start Glow Test */
+
+#introduction {
+  animation: textColor 10s ease infinite;
+}
+
+.text-glow {
+  text-shadow:2px 2px 5px #fff;
+}
+
+@keyframes textColor {
+  0% {
+    color: #00b894;
+  }
+  16.6% {
+    color: #00cec9;
+  }
+  33.3% {
+    color: #0984e3;
+  }
+  50% {
+    color: #6c5ce7;
+  }
+  66.6% {
+    color: #0984e3;
+  }
+  83.3% {
+    color: #00cec9;
+  }
+  100% {
+    color: #00b894;
+  }
+}
