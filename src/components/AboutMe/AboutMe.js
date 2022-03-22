@@ -12,7 +12,7 @@ class AboutMe extends React.Component {
                         <div className="col-md-7 align-self-center">
                             <h1>About Me</h1>
                             <hr className="my-4" />
-                            <h5>I have been working as a Web Delivery Specialist at Hyland Software for nearly 5 years of my 7 years with the company. I am always seeking opportunities to expand my technical aptitude, stay current with industry trends, and grow as a professional.  </h5>
+                            <h5>I am a highly motivated Web Developer at Hyland Software with a passion for exploring and learning new technologies. I am proficient in AngularJS, JavaScript, HTML, and SCSS. I am always seeking opportunities to expand my technical aptitude, stay current with industry trends, and grow as a professional.</h5>
                         </div>
                     </div>
                     <div className="row mb-3" id="skills">
