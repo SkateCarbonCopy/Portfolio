@@ -1,5 +1,13 @@
 const galleryObjects = [
   {
+    file: 'dashboard',
+    title: 'Admin Portal Dashboard',
+    description: 'This design was created to replace the existing product home page which functioned as site navigation. That navigation was moved to the site navbar.',
+    media: 'HTML/CSS/JavaScript',
+    imageSrc: process.env.PUBLIC_URL + '/_assets/img/gallery/dashboard.png',
+    alt: 'Acuo Admin Portal 2.0 dashboard, containing various system metrics and charts.'
+  },
+  {
     file: 'callme',
     title: 'Call Me!',
     description: 'This was created for a friend. I find a great deal of inspiration from street art, and stencils.',
